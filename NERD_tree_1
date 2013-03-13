@@ -1,0 +1,32 @@
+" Press ? for help
+
+.. (up a dir)
+/home/michael/sample/
+▾ app/
+  ▸ assets/
+  ▾ controllers/
+      application_controller.rb
+      users_controller.rb
+  ▸ helpers/
+  ▸ mailers/
+  ▾ models/
+      user.rb
+  ▾ views/
+    ▸ layouts/
+    ▾ users/
+        new.html.erb
+▸ config/
+▸ db/
+▸ doc/
+▸ lib/
+▸ log/
+▸ public/
+▸ script/
+▸ test/
+▸ tmp/
+▸ vendor/
+  config.ru
+  Gemfile
+  Gemfile.lock
+  Rakefile
+  README.rdoc

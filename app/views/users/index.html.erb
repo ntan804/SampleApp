@@ -1,0 +1,9 @@
+<% @user.each do |f| %>
+  <%= f.id %>
+  <%= f.title %>
+  <%= f.body %>
+
+  <%= link_to "Edit", edit_user_path(f.id) %>
+  <%= link_to "Delete", f , :method => "delete" %>
+  <br />
+<%end%>
